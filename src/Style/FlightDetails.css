@@ -1,0 +1,86 @@
+#filterHour {
+    cursor: pointer;
+    background-color: #EAF6FF !important;
+    color: rgb(0, 0, 0);
+    transform: translateY(-03px);
+    transition: ease;
+    transition-duration: 0.3s;
+}
+
+#filterHour:hover  {
+  cursor: pointer;
+  background-color: #0A2463 !important;
+  color: rgb(255, 255, 255);
+  transform: translateY(-04px);
+  transition: ease;
+  transition-duration: 0.3s;
+}
+
+#filterHour:active {
+    cursor: pointer;
+    background-color: #34539b !important;
+    color: rgb(255, 255, 255);
+    transform: translateY(03px);
+    transition: ease;
+    transition-duration: 0.3s;
+}
+
+#filterHour:touched { 
+    background-color: #000022 !important;
+}
+
+#dis { 
+    cursor: none !important;
+}
+
+@keyframes loader-animation {
+    0% {
+        < !-- ww w. j av a2s .co m-->left: -100%;
+    }
+
+    49% {
+        left: 100%;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.loader {
+    height: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.loader .bar {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+    animation-name: loader-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.hiver { 
+    cursor: pointer;
+}
+
+.hiver:hover { 
+    background-color: rgb(122, 87, 22) !important;
+    color: black !important;
+    transform: translateY(-5px);
+    transition-duration: 0.4s;
+}
+
+.hiver:active { 
+    background: white !important;
+    transform: translateY(5px);
+    color: aqua;
+}

@@ -1,0 +1,103 @@
+.text-small { 
+    margin-top: -4px ;
+    font-size: 14px;
+}
+
+.text-noone { 
+    font-size: 19px;
+}
+
+.text-x-small  {
+    margin-top: -16px;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.hrLine { 
+    width: 300px;
+}
+
+.margin-remo { 
+    margin-bottom: -20px;
+}
+
+.text-upper { 
+    margin-top: -18px;
+}
+
+.hover-effect { 
+    cursor: pointer;
+}
+.hover-effect:hover { 
+    color: rgb(18, 75, 75) !important;
+    transform: translateY(-4px);
+    transition-duration: 0.6s;
+}
+.hover-effect:active {
+    color: rgb(18, 75, 75) !important;
+    transform: translateY(4px);
+    transition-duration: 0.6s;
+}
+
+.hover-container { 
+    animation: popup 1000ms;
+    animation-duration: 1s;
+}
+
+@keyframes popup {
+    0% {
+    opacity: 0.4;
+    transform: translateY(-50px);
+} 
+50% {
+    opacity: 0.7;
+}
+95% { 
+    transition-duration: 0.4ms;
+    transform:translateY(20px);
+}
+}
+
+
+.hr-price-one { 
+    margin-top: -4px;
+    margin-bottom: 1px;
+}
+
+.hr-price-two { 
+    margin-bottom: -26px;
+}
+
+.hr-price-three { 
+    margin-top: -5px !important;
+}
+
+.hr-price-four { 
+    margin-bottom: 2px;
+}
+
+.hr-price-five { 
+    margin-top: -4px;
+    margin-bottom: 1px;
+}
+
+.margin-topp {
+    margin-top: 34px;
+}
+
+.hover-x { 
+    cursor: pointer;
+}
+
+.text-remove-one { 
+  margin-bottom: 0;
+}
+
+.remove-text { 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.remove-text:hover { 
+    color: rgb(152, 154, 211) !important;
+}

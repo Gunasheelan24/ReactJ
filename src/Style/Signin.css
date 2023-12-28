@@ -1,0 +1,37 @@
+.marigntop { 
+    margin-bottom: -50px !important;
+}
+
+.bgColor {
+    position: fixed;
+    background: #a6c318;
+    color: rgb(0, 51, 132) !important;
+    font-size: large;
+}
+
+#top { 
+    margin-bottom: 80px !important;
+}
+
+.design-animate { 
+    animation: design-animateOne 1000ms;
+}
+
+@keyframes design-animateOne {
+    0%{
+      opacity: 0.2;
+      transform: translateY(-10px);
+    }
+}
+
+#topanime { 
+    animation: topAnimate 1000ms;
+    transition-duration: 0.6s;
+}
+
+@keyframes topAnimate {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+}

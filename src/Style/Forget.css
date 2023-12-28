@@ -1,0 +1,9 @@
+#error { 
+    margin-top: 2px !important;
+    margin-bottom: -4px;
+}
+
+#error-full {
+    color: purple !important;
+    text-transform: uppercase;
+}

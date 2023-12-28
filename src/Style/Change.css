@@ -1,0 +1,8 @@
+#text-margin { 
+    margin-bottom: 0;
+}
+
+#text-margin-hide {
+    margin-bottom: 0;
+    color: transparent;
+}

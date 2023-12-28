@@ -1,0 +1,21 @@
+#text-font { 
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+.reduceMarigin { 
+    margin-bottom: -10px;
+}
+
+.reduceMarigindummy { 
+    color: transparent;
+    margin-bottom: -10px;
+}
+
+.text-remove { 
+    margin-bottom: -13px !important;
+}
+
+.textt-remove { 
+    margin-bottom: -13px !important;
+    color: transparent;
+}
